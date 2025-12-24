@@ -24,15 +24,6 @@
         }
       }
     },
-    "description": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "maxLength": 80
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
@@ -77,6 +68,16 @@
         "shared.rich-text",
         "shared.slider"
       ]
+    },
+    "SEO": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo",
+      "repeatable": false
     }
   }
 }
