@@ -20,7 +20,15 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "howToSchema": {
+      "type": "text"
+    },
+    "faqSchema": {
+      "type": "text"
     }
   }
 }
